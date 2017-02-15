@@ -1,7 +1,19 @@
 {
-    "name": "your-name-here/Recaptcha",
+    "name": "c181/recaptcha",
     "description": "Recaptcha plugin for CakePHP",
     "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp",
+        "google",
+        "recaptcha",
+        "captcha"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "c181"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "cakephp/cakephp": ">=3.3.2 <4.0.0"
@@ -19,5 +31,10 @@
             "Recaptcha\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
-    }
+    },
+    "extra": {
+        "installer-name": "Recaptcha"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
