@@ -2,6 +2,7 @@
     "name": "c181/recaptcha",
     "description": "Recaptcha plugin for CakePHP",
     "type": "cakephp-plugin",
+    "version": "1.0.0",
     "keywords": [
         "cakephp",
         "google",
